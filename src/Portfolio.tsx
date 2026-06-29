@@ -61,7 +61,7 @@ export default function Portfolio() {
         <LinkCard
           title="Direct Contact"
           description="Email me for custom translation projects."
-          url="mailto:your-email@example.com"
+          url="mailto:ieva.lukstina.lv@gmail.com"
         />
       </section>
     </div>
