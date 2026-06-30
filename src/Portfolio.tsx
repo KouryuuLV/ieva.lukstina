@@ -39,6 +39,18 @@ export default function Portfolio() {
           url="https://www.interpreters.travel/en/riga/772858/interpreter/28506"
         />
 
+        {/* <LinkCard
+          title="Hire Me on Upwork"
+          description="My freelance translator profile on Upwork."
+          url="https://www.upwork.com"
+        />
+
+        <LinkCard
+          title="Hire Me on Fiverr"
+          description="Order translation services directly."
+          url="https://www.fiverr.com"
+        /> */}
+
         <LinkCard
           title="Find me on LinkedIn"
           description="See my experience and translation background."
