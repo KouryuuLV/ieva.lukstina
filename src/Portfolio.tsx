@@ -29,33 +29,14 @@ export default function Portfolio() {
       </header>
 
       {/* Link Cards */}
-{/* Link Cards */}
+
       <section className="card-grid">
-
-        {/* Agencies you work with */}
-        <LinkCard 
-          title="Agency: ExampleTranslations"
-          description="Professional translation agency I collaborate with."
-          url="https://exampletranslations.com"
-        />
-
-        <LinkCard
-          title="Agency: BalticLinguists"
-          description="Trusted partner for multilingual projects."
-          url="https://balticlinguists.eu"
-        />
 
         {/* Places to hire you */}
         <LinkCard
-          title="Hire Me on Upwork"
-          description="My freelance translator profile on Upwork."
-          url="https://www.upwork.com"
-        />
-
-        <LinkCard
-          title="Hire Me on Fiverr"
-          description="Order translation services directly."
-          url="https://www.fiverr.com"
+          title="Hire Me on Interpreters.travel"
+          description="My freelance translator profile on Interpreters.travel."
+          url="https://www.interpreters.travel/en/riga/772858/interpreter/28506"
         />
 
         <LinkCard
