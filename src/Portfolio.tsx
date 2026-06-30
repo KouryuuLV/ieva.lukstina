@@ -1,5 +1,5 @@
 import "./Portfolio.css";
-import profileImage from "./assets/ieva.jpg";
+import profileImage from "./assets/ieva.webp";
 
 type LinkCardProps = {
   title: string;
@@ -15,7 +15,7 @@ export default function Portfolio() {
       <header className="hero">
         <img
           src={profileImage}
-          alt="Your main portrait"
+          alt="Ieva Lukstiņa"
           className="hero-image"
         />
 
@@ -33,7 +33,7 @@ export default function Portfolio() {
       <section className="card-grid">
 
         {/* Agencies you work with */}
-        <LinkCard
+        <LinkCard 
           title="Agency: ExampleTranslations"
           description="Professional translation agency I collaborate with."
           url="https://exampletranslations.com"
@@ -56,6 +56,12 @@ export default function Portfolio() {
           title="Hire Me on Fiverr"
           description="Order translation services directly."
           url="https://www.fiverr.com"
+        />
+
+        <LinkCard
+          title="Find me on LinkedIn"
+          description="See my experience and translation background."
+          url="https://www.linkedin.com/in/ieva-luksti%C5%86a-365b47112/"
         />
 
         <LinkCard
